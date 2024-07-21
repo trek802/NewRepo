@@ -1,7 +1,10 @@
 package test.programs;
 
+import org.testng.annotations.Test;
+
 public class NewGNewClass {
-	public static void main(String[] args) {
+	@Test
+	void test2() {
 		System.out.println("New class added by New guy");
 	}
 }
